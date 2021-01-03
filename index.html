@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Cash Register</h1>
+        <p>calculate change to settle bills</p>
+    </header>
+    <ul>
+        <li>
+            <input type="number" placeholder="bill amount" id="bill-amount"/> 
+            <button id="next-btn">next</button>
+        </li>
+        <li><input type="number" placeholder="cash given" hidden id="cash-given"/></li>
+        <li><button hidden id="btn">Calculate</button></li>
+    </ul>
+    <div id="output"></div>
+    <ul id="change" hidden>        
+        <li>
+            <span>1 x</span>
+            <span id="n1"></span>
+        </li>
+        <li>
+            <span>5 x</span>
+            <span id="n5"></span>
+        </li>
+        <li>
+            <span>10 x</span>
+            <span id="n10"></span>
+        </li>
+        <li>
+            <span>20 x</span>
+            <span id="n20"></span>
+        </li>
+        <li>
+            <span>100 x</span>
+            <span id="n100"></span>
+        </li>
+        <li>
+            <span>500 x </span> 
+            <span id="n500"></span>
+        </li>
+        <li>
+            <span>2000 x</span>
+            <span id="n2000"></span>
+        </li>
+    </ul>
+
+    <footer></footer>
+    <script type="text/javascript" src="app.js" ></script>
+</body>
+</html>
