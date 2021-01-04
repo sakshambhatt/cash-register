@@ -9,49 +9,58 @@
 <body>
     <header>
         <h1>Cash Register</h1>
-        <p>calculate change to settle bills</p>
+        <p><strong>calculate change to settle bills</strong></p>
     </header>
-    <ul>
-        <li>
-            <input type="number" placeholder="bill amount" id="bill-amount"/> 
-            <button id="next-btn">next</button>
-        </li>
-        <li><input type="number" placeholder="cash given" hidden id="cash-given"/></li>
+    <ul class="input-container">
+        <li><input type="number" placeholder="bill amount" id="bill-amount"/> </li>
+        <li><button id="next-btn">next</button></li>
+        <li><input class="cash-input" type="number" placeholder="cash given" hidden id="cash-given"/></li>
         <li><button hidden id="btn">Calculate</button></li>
     </ul>
     <div id="output"></div>
-    <ul id="change" hidden>        
+    <ul class="output-container" id="change" hidden>        
         <li>
-            <span>1 x</span>
+            <span>&#8377 1 x</span>
             <span id="n1"></span>
         </li>
         <li>
-            <span>5 x</span>
+            <span>&#8377 5 x</span>
             <span id="n5"></span>
         </li>
         <li>
-            <span>10 x</span>
+            <span>&#8377 10 x</span>
             <span id="n10"></span>
         </li>
         <li>
-            <span>20 x</span>
+            <span>&#8377 20 x</span>
             <span id="n20"></span>
         </li>
         <li>
-            <span>100 x</span>
+            <span>&#8377 100 x</span>
             <span id="n100"></span>
         </li>
         <li>
-            <span>500 x </span> 
+            <span>&#8377 500 x </span> 
             <span id="n500"></span>
         </li>
         <li>
-            <span>2000 x</span>
+            <span>&#8377 2000 x</span>
             <span id="n2000"></span>
         </li>
     </ul>
 
-    <footer></footer>
+    <footer>
+        <p>2021, made by Saksham Bhatt</p>
+        <ul>
+            <li>
+                <a href="https://portfolio-saksham.netlify.app/" target="_blank" alt="Developer portfolio" >Portfolio</a>
+                <a href="https://sakshambhatt.hashnode.dev/" target="_blank" alt="Developer's blog">Blog</a>
+                <a href="https://twitter.com/lucksomecutt" target="_blank" alt="twitter profile" >Twitter</a>
+                <a href="https://www.linkedin.com/in/saksham-bhatt-13a177182/" target="_blank" alt="linkedin profile">LinkedIn</a>
+                <a href="https://github.com/sakshambhatt" target="_blank" alt="github profile">Github</a>
+            </li>
+        </ul>
+    </footer>
     <script type="text/javascript" src="app.js" ></script>
 </body>
 </html>

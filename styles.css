@@ -1,5 +1,95 @@
-
-/* list */ 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --primary-color: #059669;
+    --secondary-color: #A7F3D0;
+    --tertiary-color: #34D399;
+}
+/* header */
+header {
+    background-color: var(--tertiary-color);
+}
+header > h1 {
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+/* body */
+body {
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: var(--secondary-color);
+    font-weight: bold;
+}
+/* list-container */
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    background-color: var(--primary-color);
+}
+/* list-element */ 
 li {
     list-style-type: none;
+}
+
+/* input-container */
+.input-container {
+
+    margin-top: 2.5rem;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+}
+/* input */
+input {
+    padding: 0.25rem;
+    border: 3px solid black; 
+}
+/* cash-input */
+.cash-input {
+    margin-top: 1rem;
+}
+/* button */
+button {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* output container */
+.output-container {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    
+}
+
+.output-container > li {
+    
+    background-color: var(--secondary-color);
+}
+/* footer */
+footer {
+    background-color: var(--tertiary-color);
+    position: absolute;
+    bottom:0%;
+    width: 100%; 
+}
+/* footer-ul */
+footer > ul {
+    background-color: var(--tertiary-color);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/* links */ 
+a {
+    color: black;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
 }
