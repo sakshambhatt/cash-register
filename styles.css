@@ -72,7 +72,7 @@ button {
 /* footer */
 footer {
     background-color: var(--tertiary-color);
-    position: absolute;
+    /* position: absolute; */
     bottom:0%;
     width: 100%; 
 }
